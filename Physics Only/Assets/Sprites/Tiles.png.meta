@@ -57,15 +57,15 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 0, y: 1155, z: 0, w: 402}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -118,6 +118,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -126,11 +139,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1640
-        height: 1961
+        y: 530
+        width: 1421
+        height: 1431
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -151,7 +164,7 @@ TextureImporter:
         width: 11
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -172,7 +185,7 @@ TextureImporter:
         width: 6
         height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -193,7 +206,7 @@ TextureImporter:
         width: 13
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,17 +218,80 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    outline: []
+    outline:
+    - - {x: -816.5425, y: -1009.4531}
+      - {x: 820, y: -822.77344}
+      - {x: 820, y: 782.4414}
+      - {x: -398.18692, y: 783.59375}
+      - {x: -820, y: 783.59375}
+      - {x: -820, y: -1010.60547}
+    - - {x: 136.57062, y: -993.3203}
+      - {x: 136.57062, y: -932.2461}
+      - {x: 131.96065, y: -927.6367}
+      - {x: 128.50316, y: -928.78906}
+      - {x: 127.35067, y: -933.39844}
+      - {x: 127.35067, y: -993.3203}
+      - {x: 130.80815, y: -996.77734}
+      - {x: 133.11314, y: -996.77734}
+    - - {x: -104.30077, y: -935.7031}
+      - {x: -106.60576, y: -934.5508}
+      - {x: -111.215744, y: -934.5508}
+      - {x: -112.36823, y: -936.85547}
+      - {x: -112.36823, y: -943.76953}
+      - {x: -104.30077, y: -943.76953}
+    - - {x: -113.52073, y: -973.73047}
+      - {x: -113.52073, y: -970.27344}
+      - {x: -114.673225, y: -967.96875}
+      - {x: -118.13071, y: -967.96875}
+      - {x: -120.4357, y: -969.1211}
+      - {x: -120.4357, y: -974.8828}
+      - {x: -114.673225, y: -974.8828}
+    - - {x: -108.91075, y: -1002.53906}
+      - {x: -108.91075, y: -996.77734}
+      - {x: -114.673225, y: -988.71094}
+      - {x: -118.13071, y: -988.71094}
+      - {x: -120.4357, y: -989.8633}
+      - {x: -120.4357, y: -1003.6914}
+      - {x: -112.36823, y: -1003.6914}
+    - - {x: -581.4336, y: -1011.7578}
+      - {x: -581.4336, y: -1007.14844}
+      - {x: -586.0436, y: -1002.53906}
+      - {x: -594.111, y: -1002.53906}
+      - {x: -594.111, y: -1009.4531}
+      - {x: -592.95856, y: -1014.0625}
+      - {x: -582.58606, y: -1014.0625}
+    - - {x: 820, y: -1024.4336}
+      - {x: 806.17004, y: -1024.4336}
+      - {x: 806.17004, y: -1040.5664}
+      - {x: 807.3226, y: -1041.7188}
+      - {x: 820, y: -1041.7188}
+    - - {x: 136.57062, y: -1145.4297}
+      - {x: 136.57062, y: -1044.0234}
+      - {x: 133.11314, y: -1042.8711}
+      - {x: 128.50316, y: -1042.8711}
+      - {x: 127.35067, y: -1044.0234}
+      - {x: 127.35067, y: -1110.8594}
+      - {x: 128.50316, y: -1145.4297}
+      - {x: 133.11314, y: -1146.582}
+    - - {x: -816.5425, y: -1055.5469}
+      - {x: -818.8475, y: -1053.2422}
+      - {x: -820, y: -1053.2422}
+      - {x: -820, y: -1180}
+      - {x: -816.5425, y: -1180}
     physicsShape: []
     bones: []
-    spriteID: 
-    internalID: 0
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tiles_0: 7223950226953391895
+      Tiles_1: -8377130690987618698
+      Tiles_2: -4684333735789482159
+      Tiles_3: -5062486230716756072
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
