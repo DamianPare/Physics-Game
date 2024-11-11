@@ -5,11 +5,8 @@ using System;
 
 public class Explosion : MonoBehaviour
 {
-    [SerializeField] private int blastPower;
     [SerializeField] private float blastCooldown;
-    [SerializeField] private LayerMask placeableMask;
     private Vector3 startPos;
-    private Vector3 endPos;
     private GameObject bomb;
     private SpriteRenderer bombRenderer;
 
@@ -18,11 +15,13 @@ public class Explosion : MonoBehaviour
     [SerializeField] private float explosionRadius = 5;
 
     [SerializeField] private GameObject circle;
+    [SerializeField] private GameObject explosion;
     [SerializeField] private int subdivisions = 10;
     private LineRenderer circleRenderer;
     private float circleRadiusX = 0.1f;
     private float circleRadiusY = 0.1f;
     private float circleRadius = 0.1f;
+    private float spriteScale = 1f;
 
 
     private void Awake()
@@ -40,7 +39,7 @@ public class Explosion : MonoBehaviour
     
     void Update()
     {
-
+       
         DrawCircle();
 
         if (Input.GetKeyDown(KeyCode.Space))
@@ -48,21 +47,23 @@ public class Explosion : MonoBehaviour
             TriggerBlast();
         }
 
-        Vector2 hitInfo = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+         Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
+            explosion.transform.localScale = Vector3.one;
             bombRenderer.enabled = true;
             circle.SetActive(true);
-            startPos = hitInfo;
+            startPos = mouseWorldPos;
             transform.position = startPos;
             Debug.Log(startPos);
         }
 
         if (Input.GetKey(KeyCode.Mouse0))
         {
-            SetUpBlast(hitInfo);
-            Debug.Log("setting up");
+            SetUpBlast(mouseWorldPos);
+           // Debug.Log("setting up");
         }
 
         if (Input.GetKeyUp(KeyCode.Mouse0))
@@ -75,12 +76,16 @@ public class Explosion : MonoBehaviour
 
     public void SetUpBlast(Vector3 place)
     {
-        circleRadiusX = place.x - startPos.x;
-        circleRadiusY = place.y - startPos.y;
 
-        circleRadius = Math.Max(Math.Abs(circleRadiusX), Math.Abs(circleRadiusY));
+        // circleRadiusX = place.x - startPos.x;
+        //circleRadiusY = place.y - startPos.y;
+        circleRadius = (place - startPos).magnitude;
+       
+        spriteScale = Mathf.Abs(circleRadius);
+        explosion.transform.localScale = spriteScale * Vector3.one;
+       // circleRadius = Math.Max(Math.Abs(circleRadiusX), Math.Abs(circleRadiusY));
+
         explosionForceMulti = 1000 * (circleRadius);
-        Debug.Log(explosionForceMulti);
     }
 
     public void TriggerBlast()
@@ -97,7 +102,6 @@ public class Explosion : MonoBehaviour
                 {
                     float explosionForce = explosionForceMulti / distanceVector.magnitude;
                     o_rigidbody2D.AddForce(distanceVector.normalized * explosionForce);
-                    Debug.Log("boom");
                 }
             }
         }
