@@ -9,6 +9,10 @@ public class Cookie : MonoBehaviour
     public List<GameObject> Dirty = new ();
     public List<GameObject> Ketchup = new();
 
+    private int YuckContacted = 0;
+    private int DirtContacted = 0;
+    private int KetchupContacted = 0;
+
 
     private void Awake()
     {
@@ -45,22 +49,30 @@ public class Cookie : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == 7)
+        if (collision.gameObject.layer == 7) // if touches gunk
         {
             int i = Random.Range(1, 11);
             Yucky[i].SetActive(true);
+            YuckContacted++;
         }
 
-        if (collision.gameObject.layer == 8)
+        if (collision.gameObject.layer == 8) // if touches dirt
         {
             int i = Random.Range(1, 11);
             Dirty[i].SetActive(true);
+            DirtContacted++;
         }
 
-        if (collision.gameObject.layer == 9)
+        if (collision.gameObject.layer == 9) // if touches ketchup
         {
             int i = Random.Range(1, 11);
             Ketchup[i].SetActive(true);
+            KetchupContacted++;
+        }
+
+        if (collision.gameObject.layer == 10) // if touches milk
+        {
+            GameManager.instance.ChangeMilk(YuckContacted, DirtContacted, KetchupContacted);
         }
     }
 
