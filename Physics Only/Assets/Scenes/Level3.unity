@@ -4365,7 +4365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Level1Name: Level1
   Level2Name: Level2
-  Level3Name: Level3
+  Level3Name: Levels
 --- !u!4 &898324032
 Transform:
   m_ObjectHideFlags: 0
