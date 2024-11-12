@@ -2221,10 +2221,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2184844916581715413, guid: 36384f8f297e37f4f8b7340db51edc30, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4947406497886260312, guid: 36384f8f297e37f4f8b7340db51edc30, type: 3}
       propertyPath: explosion
       value: 
-      objectReference: {fileID: 1255212751}
+      objectReference: {fileID: 1623863545}
     - target: {fileID: 5801310920102974069, guid: 36384f8f297e37f4f8b7340db51edc30, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30.339468
@@ -3809,6 +3813,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f492ceae8fa89042a8bf3268ddd36b9, type: 3}
+--- !u!1 &770708266 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4600084555355878229, guid: 2f492ceae8fa89042a8bf3268ddd36b9, type: 3}
+  m_PrefabInstance: {fileID: 770708265}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &775194910
 GameObject:
   m_ObjectHideFlags: 0
@@ -4366,6 +4375,9 @@ MonoBehaviour:
   Level1Name: Level1
   Level2Name: Level2
   Level3Name: Level3
+  Milk: {fileID: 770708266}
+  duration: 3
+  LevelCompleted: 0
 --- !u!4 &898324032
 Transform:
   m_ObjectHideFlags: 0
@@ -5650,7 +5662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 260798260}
-  smoothTime: 0.3
+  smoothTime: 0.15
 --- !u!114 &1297515668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5738,7 +5750,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.26
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -6678,6 +6690,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0927a71c1cbbfe4b9ee4457926d128d, type: 3}
+--- !u!1 &1623863545 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1932213413498640970, guid: 36384f8f297e37f4f8b7340db51edc30, type: 3}
+  m_PrefabInstance: {fileID: 527703273}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1627612864
 GameObject:
   m_ObjectHideFlags: 0
