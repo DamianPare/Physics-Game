@@ -11,20 +11,40 @@ public class GameManager : MonoBehaviour
     [SerializeField] private string Level2Name;
     [SerializeField] private string Level3Name;
 
+    private bool LevelCompleted;
+
     private void Awake()
     {
         instance = this;
     }
 
+    private void Start()
+    {
+        LevelCompleted = false;
+    }
+
+    private void Update()
+    {
+        Debug.Log(LevelCompleted);
+
+        if (LevelCompleted && Input.GetKeyDown(KeyCode.Space))
+        {
+            NextLevel();
+        }
+    }
+
     public void NextLevel()
     {
-        if(SceneManager.GetActiveScene().name == Level1Name)
+        Debug.Log(Level1Name);
+        Debug.Log(SceneManager.GetActiveScene().name);
+
+        if (SceneManager.GetActiveScene().name == Level1Name)
         {
-            SceneManager.LoadScene("Level2Name");
+            SceneManager.LoadScene(Level2Name);
         }
         if (SceneManager.GetActiveScene().name == Level2Name)
         {
-            SceneManager.LoadScene("Level3Name");
+            SceneManager.LoadScene(Level3Name);
         }
         if (SceneManager.GetActiveScene().name == Level3Name)
         {
@@ -34,7 +54,7 @@ public class GameManager : MonoBehaviour
 
     public void ChangeMilk(int Goop, int Dirt, int Ketchup)
     {
-
+        LevelCompleted = true;
     }
 
     private void GameCompleted()
