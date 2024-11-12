@@ -9,6 +9,8 @@ public class Explosion : MonoBehaviour
     private Vector3 startPos;
     private GameObject bomb;
     private SpriteRenderer bombRenderer;
+    private SpriteRenderer explosionRenderer;
+
 
     Collider2D[] inExplosionRadius = null;
     [SerializeField] private float explosionForceMulti = 5;
@@ -18,8 +20,6 @@ public class Explosion : MonoBehaviour
     [SerializeField] private GameObject explosion;
     [SerializeField] private int subdivisions = 10;
     private LineRenderer circleRenderer;
-    private float circleRadiusX = 0.1f;
-    private float circleRadiusY = 0.1f;
     private float circleRadius = 0.1f;
     private float spriteScale = 1f;
 
@@ -27,14 +27,14 @@ public class Explosion : MonoBehaviour
     private void Awake()
     {
         bomb = this.gameObject;
-        bombRenderer = bomb.GetComponent<SpriteRenderer>();
         circleRenderer = circle.GetComponent<LineRenderer>();
+        bombRenderer = explosion.GetComponent<SpriteRenderer>();
+        explosionRenderer = explosion.GetComponent<SpriteRenderer>();
     }
 
     void Start()
     {
         circleRenderer.material.color = Color.red;
-        
     }
     
     void Update()
@@ -52,8 +52,9 @@ public class Explosion : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
+            explosion.GetComponent<SpriteRenderer>().enabled = true;
             explosion.transform.localScale = Vector3.one;
-            bombRenderer.enabled = true;
+            explosionRenderer.enabled = true;
             circle.SetActive(true);
             startPos = mouseWorldPos;
             transform.position = startPos;
@@ -68,22 +69,19 @@ public class Explosion : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Mouse0))
         {
-            bombRenderer.enabled = false;
+            explosionRenderer.enabled = false;
             TriggerBlast();
             circle.SetActive(false);
+            Cookie.instance.Explosion(explosionRadius);
         }
     }
 
     public void SetUpBlast(Vector3 place)
     {
-
-        // circleRadiusX = place.x - startPos.x;
-        //circleRadiusY = place.y - startPos.y;
         circleRadius = (place - startPos).magnitude;
        
         spriteScale = Mathf.Abs(circleRadius);
         explosion.transform.localScale = spriteScale * Vector3.one;
-       // circleRadius = Math.Max(Math.Abs(circleRadiusX), Math.Abs(circleRadiusY));
 
         explosionForceMulti = 1000 * (circleRadius);
     }

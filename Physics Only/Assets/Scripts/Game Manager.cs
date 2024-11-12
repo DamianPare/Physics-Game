@@ -11,7 +11,17 @@ public class GameManager : MonoBehaviour
     [SerializeField] private string Level2Name;
     [SerializeField] private string Level3Name;
 
-    private bool LevelCompleted;
+    [SerializeField] private GameObject Milk;
+
+    [SerializeField] private float duration;
+
+    private float timeElapsed;
+
+    public bool LevelCompleted;
+
+    private Color32 resultColor;
+    private Color32 milkColor;
+    private SpriteRenderer milkRenderer;
 
     private void Awake()
     {
@@ -21,17 +31,35 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         LevelCompleted = false;
+        milkRenderer = Milk.GetComponent<SpriteRenderer>();
     }
 
     private void Update()
     {
-        Debug.Log(LevelCompleted);
+        Debug.Log(resultColor);
 
         if (LevelCompleted && Input.GetKeyDown(KeyCode.Space))
         {
             NextLevel();
         }
+    } 
+
+    IEnumerator ChangeColor()
+    {
+        float timeElapsed = 0;
+
+        while (timeElapsed < duration)
+        {
+            milkColor = Color32.Lerp(Color.white, resultColor, timeElapsed / duration);
+            milkRenderer.color = milkColor;
+            timeElapsed += Time.deltaTime;
+
+            yield return null;
+        }
+
+        milkColor = resultColor;
     }
+
 
     public void NextLevel()
     {
@@ -52,9 +80,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void ChangeMilk(int Goop, int Dirt, int Ketchup)
+    public void ChangeMilk(Color Goop, Color Dirt, Color Ketchup)
     {
-        LevelCompleted = true;
+        resultColor = (Goop + Dirt + Ketchup)/3;
+
+        StartCoroutine(ChangeColor());
     }
 
     private void GameCompleted()

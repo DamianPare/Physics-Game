@@ -4,18 +4,30 @@ using UnityEngine;
 
 public class Cookie : MonoBehaviour
 {
-    public Tagger[] AddOns;
-    public List<GameObject> Yucky = new ();
-    public List<GameObject> Dirty = new ();
-    public List<GameObject> Ketchup = new();
+    [SerializeField] private AudioSource source;
+    [SerializeField] private AudioClip splash;
+    [SerializeField] private AudioClip thud;
+    [SerializeField] private AudioClip explosion;
 
-    private int YuckContacted = 0;
-    private int DirtContacted = 0;
-    private int KetchupContacted = 0;
+    private Tagger[] AddOns;
+    private List<GameObject> Yucky = new ();
+    private List<GameObject> Dirty = new ();
+    private List<GameObject> Ketchup = new();
 
+    public int YuckContacted = 0;
+    public int DirtContacted = 0;
+    public int KetchupContacted = 0;
+
+    public Color yuckColor;
+    public Color dirtColor;
+    public Color chupColor;
+
+    public static Cookie instance;
 
     private void Awake()
     {
+        instance = this;
+
         AddOns = GetComponentsInChildren<Tagger>();
         foreach (Tagger mess in AddOns)
         {
@@ -44,13 +56,17 @@ public class Cookie : MonoBehaviour
 
     private void Update()
     {
+        if(GameManager.instance.LevelCompleted)
+        {
 
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.layer == 7) // if touches gunk
         {
+            source.PlayOneShot(splash);
             int i = Random.Range(1, 11);
             Yucky[i].SetActive(true);
             YuckContacted++;
@@ -65,6 +81,7 @@ public class Cookie : MonoBehaviour
 
         if (collision.gameObject.layer == 9) // if touches ketchup
         {
+            source.PlayOneShot(splash);
             int i = Random.Range(1, 11);
             Ketchup[i].SetActive(true);
             KetchupContacted++;
@@ -72,7 +89,13 @@ public class Cookie : MonoBehaviour
 
         if (collision.gameObject.layer == 10) // if touches milk
         {
-            GameManager.instance.ChangeMilk(YuckContacted, DirtContacted, KetchupContacted);
+            source.PlayOneShot(splash);
+            CalculateColor();
+        }
+
+        if (collision.gameObject.layer == 11) // if touches milk
+        {
+            source.PlayOneShot(thud);
         }
     }
 
@@ -90,5 +113,18 @@ public class Cookie : MonoBehaviour
         {
             chup.SetActive(false);
         }
+    }
+
+    private void CalculateColor()
+    {
+        yuckColor *= YuckContacted;
+        dirtColor *= DirtContacted;
+        chupColor *= KetchupContacted;
+        GameManager.instance.ChangeMilk(yuckColor, dirtColor, chupColor);
+    }
+
+    public void Explosion(float power)
+    {
+        source.PlayOneShot(explosion, power);
     }
 }
