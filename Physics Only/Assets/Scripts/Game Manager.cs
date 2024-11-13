@@ -121,7 +121,7 @@ public class GameManager : MonoBehaviour
 
     public void RemoveEdibility()
     {
-        Edibility -= 50;
+        //Edibility -= 10;
         Debug.Log(Edibility);
     }
 
