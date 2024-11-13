@@ -6,6 +6,7 @@ public class Cookie : MonoBehaviour
 {
     [SerializeField] private AudioSource source;
     [SerializeField] private AudioClip splash;
+    [SerializeField] private AudioClip splat;
     [SerializeField] private AudioClip thud;
     [SerializeField] private AudioClip explosion;
 
@@ -14,9 +15,9 @@ public class Cookie : MonoBehaviour
     private List<GameObject> Dirty = new ();
     private List<GameObject> Ketchup = new();
 
-    public int YuckContacted = 0;
-    public int DirtContacted = 0;
-    public int KetchupContacted = 0;
+    public float YuckContacted = 0;
+    public float DirtContacted = 0;
+    public float KetchupContacted = 0;
 
     public Color yuckColor;
     public Color dirtColor;
@@ -56,9 +57,14 @@ public class Cookie : MonoBehaviour
 
     private void Update()
     {
-        if(GameManager.instance.LevelCompleted)
-        {
 
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.layer == 0)
+        {
+            source.PlayOneShot(thud);
         }
     }
 
@@ -66,36 +72,62 @@ public class Cookie : MonoBehaviour
     {
         if (collision.gameObject.layer == 7) // if touches gunk
         {
-            source.PlayOneShot(splash);
+            GameManager.instance.RemoveEdibility();
+            source.PlayOneShot(splat);
             int i = Random.Range(1, 11);
-            Yucky[i].SetActive(true);
-            YuckContacted++;
+
+            while (Yucky[i].activeSelf == true)
+            {
+                i = Random.Range(1, 11);
+            }
+
+            if (Yucky[i].activeSelf == false)
+            {
+                Yucky[i].SetActive(true);
+                YuckContacted++;
+            }
         }
 
         if (collision.gameObject.layer == 8) // if touches dirt
         {
+            GameManager.instance.RemoveEdibility();
             int i = Random.Range(1, 11);
-            Dirty[i].SetActive(true);
-            DirtContacted++;
+
+            while (Dirty[i].activeSelf == true)
+            {
+                i = Random.Range(1, 11);
+            }
+
+            if (Dirty[i].activeSelf == false)
+            {
+                Dirty[i].SetActive(true);
+                DirtContacted++;
+            }
         }
 
         if (collision.gameObject.layer == 9) // if touches ketchup
         {
-            source.PlayOneShot(splash);
+            source.PlayOneShot(splat);
+            GameManager.instance.RemoveEdibility();
             int i = Random.Range(1, 11);
-            Ketchup[i].SetActive(true);
-            KetchupContacted++;
+
+            while (Ketchup[i].activeSelf == true)
+            {
+                i = Random.Range(1, 11);
+            }
+
+            if (Ketchup[i].activeSelf == false)
+            {
+                Ketchup[i].SetActive(true);
+                KetchupContacted++;
+            }
         }
 
         if (collision.gameObject.layer == 10) // if touches milk
         {
             source.PlayOneShot(splash);
             CalculateColor();
-        }
-
-        if (collision.gameObject.layer == 11) // if touches milk
-        {
-            source.PlayOneShot(thud);
+            GameManager.instance.LevelFinished(KetchupContacted, YuckContacted, DirtContacted);
         }
     }
 
@@ -117,10 +149,28 @@ public class Cookie : MonoBehaviour
 
     private void CalculateColor()
     {
-        yuckColor *= YuckContacted;
-        dirtColor *= DirtContacted;
-        chupColor *= KetchupContacted;
-        GameManager.instance.ChangeMilk(yuckColor, dirtColor, chupColor);
+        float total = YuckContacted + DirtContacted + KetchupContacted;
+
+        Color yResult = Color.white;
+        Color dResult = Color.white;
+        Color kResult = Color.white;
+
+        if (YuckContacted > 0)
+        {
+            yResult = yuckColor * (YuckContacted / total);
+        }
+
+        if (DirtContacted > 0)
+        {
+            dResult = dirtColor * (DirtContacted / total);
+        }
+
+        if (KetchupContacted > 0)
+        {
+            kResult = chupColor * (KetchupContacted / total);
+        }
+
+        GameManager.instance.ChangeMilk(yResult, dResult, kResult);
     }
 
     public void Explosion(float power)

@@ -22,6 +22,7 @@ public class Explosion : MonoBehaviour
     private LineRenderer circleRenderer;
     private float circleRadius = 0.1f;
     private float spriteScale = 1f;
+    private bool canMove;
 
 
     private void Awake()
@@ -34,46 +35,50 @@ public class Explosion : MonoBehaviour
 
     void Start()
     {
+        canMove = true;
         circleRenderer.material.color = Color.red;
     }
     
     void Update()
     {
-       
-        DrawCircle();
-
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (GameManager.instance.LevelCompleted || GameManager.instance.LevelFailed)
         {
-            TriggerBlast();
+            canMove = false;
         }
 
-         Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (canMove)
         {
-            explosion.GetComponent<SpriteRenderer>().enabled = true;
-            explosion.transform.localScale = Vector3.one;
-            explosionRenderer.enabled = true;
-            circle.SetActive(true);
-            startPos = mouseWorldPos;
-            transform.position = startPos;
-            Debug.Log(startPos);
+            DrawCircle();
+
+            Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                explosion.GetComponent<SpriteRenderer>().enabled = true;
+                explosion.transform.localScale = Vector3.one;
+                explosionRenderer.enabled = true;
+                circle.SetActive(true);
+                startPos = mouseWorldPos;
+                transform.position = startPos;
+                Debug.Log(startPos);
+            }
+
+            if (Input.GetKey(KeyCode.Mouse0))
+            {
+                SetUpBlast(mouseWorldPos);
+                // Debug.Log("setting up");
+            }
+
+            if (Input.GetKeyUp(KeyCode.Mouse0))
+            {
+                explosionRenderer.enabled = false;
+                TriggerBlast();
+                circle.SetActive(false);
+                Cookie.instance.Explosion(explosionRadius);
+            }
         }
 
-        if (Input.GetKey(KeyCode.Mouse0))
-        {
-            SetUpBlast(mouseWorldPos);
-           // Debug.Log("setting up");
-        }
-
-        if (Input.GetKeyUp(KeyCode.Mouse0))
-        {
-            explosionRenderer.enabled = false;
-            TriggerBlast();
-            circle.SetActive(false);
-            Cookie.instance.Explosion(explosionRadius);
-        }
     }
 
     public void SetUpBlast(Vector3 place)
