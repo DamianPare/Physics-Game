@@ -1,0 +1,1727 @@
+fileFormatVersion: 2
+guid: 6f07fd0b300de394db8cba8d4011020f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2028920106936226737
+    second: Review_popup_0
+  - first:
+      213: -3020204696863885274
+    second: Review_popup_1
+  - first:
+      213: -2498089045920103319
+    second: Review_popup_2
+  - first:
+      213: -8565840641729216882
+    second: Review_popup_3
+  - first:
+      213: 4974112341744705272
+    second: Review_popup_4
+  - first:
+      213: 5299009393648393
+    second: Review_popup_5
+  - first:
+      213: 9169076686910824971
+    second: Review_popup_6
+  - first:
+      213: -7450058347818690064
+    second: Review_popup_7
+  - first:
+      213: -8033396185240132426
+    second: Review_popup_8
+  - first:
+      213: 3980783880908129438
+    second: Review_popup_9
+  - first:
+      213: 1546604444375343811
+    second: Review_popup_10
+  - first:
+      213: -4475126291907064190
+    second: Review_popup_11
+  - first:
+      213: -3825507072695820673
+    second: Review_popup_12
+  - first:
+      213: 6242626282530847301
+    second: Review_popup_13
+  - first:
+      213: 2779341437507840631
+    second: Review_popup_14
+  - first:
+      213: 4969924162594198044
+    second: Review_popup_15
+  - first:
+      213: -4935248466619469593
+    second: Review_popup_16
+  - first:
+      213: 7445055671854005332
+    second: Review_popup_17
+  - first:
+      213: -7974144393229883873
+    second: Review_popup_18
+  - first:
+      213: -3551671046539213702
+    second: Review_popup_19
+  - first:
+      213: 894754935754108980
+    second: Review_popup_20
+  - first:
+      213: 2042143348261938157
+    second: Review_popup_21
+  - first:
+      213: -8210487462921564272
+    second: Review_popup_22
+  - first:
+      213: 6863989099341014051
+    second: Review_popup_23
+  - first:
+      213: 5734381221897110658
+    second: Review_popup_24
+  - first:
+      213: -7498408935006488055
+    second: Review_popup_25
+  - first:
+      213: 4298459685098106475
+    second: Review_popup_26
+  - first:
+      213: -1250814020793900190
+    second: Review_popup_27
+  - first:
+      213: -1264009545302672268
+    second: Review_popup_28
+  - first:
+      213: 3510992285195137223
+    second: Review_popup_29
+  - first:
+      213: 3725447658994924327
+    second: Review_popup_30
+  - first:
+      213: 255487906879477884
+    second: Review_popup_31
+  - first:
+      213: 8713580304780534274
+    second: Review_popup_32
+  - first:
+      213: 5532168327311474120
+    second: Review_popup_33
+  - first:
+      213: 7434185309618426035
+    second: Review_popup_34
+  - first:
+      213: 8516706769448711114
+    second: Review_popup_35
+  - first:
+      213: 8002298095015641541
+    second: Review_popup_36
+  - first:
+      213: 4177335056719785435
+    second: Review_popup_37
+  - first:
+      213: 3562854223890217561
+    second: Review_popup_38
+  - first:
+      213: -6965456013404334324
+    second: Review_popup_39
+  - first:
+      213: -2639150889168477812
+    second: Review_popup_40
+  - first:
+      213: -1330078481470120505
+    second: Review_popup_41
+  - first:
+      213: -218530372357230333
+    second: Review_popup_42
+  - first:
+      213: -1994535217821426591
+    second: Review_popup_43
+  - first:
+      213: 9065616060701307638
+    second: Review_popup_44
+  - first:
+      213: -6888676627208932924
+    second: Review_popup_45
+  - first:
+      213: -3227952724140592692
+    second: Review_popup_46
+  - first:
+      213: 6879676084429586205
+    second: Review_popup_47
+  - first:
+      213: 100467012526385706
+    second: Review_popup_48
+  - first:
+      213: 117041418175178744
+    second: Review_popup_49
+  - first:
+      213: -4942161274158785706
+    second: Review_popup_50
+  - first:
+      213: -3816959828373186036
+    second: Review_popup_51
+  - first:
+      213: 4619155079599768272
+    second: Review_popup_52
+  - first:
+      213: -7470485472049703321
+    second: Review_popup_53
+  - first:
+      213: 5511734956763777221
+    second: Review_popup_54
+  - first:
+      213: -1790149482765601943
+    second: Review_popup_55
+  - first:
+      213: -4935051086074056512
+    second: Review_popup_56
+  - first:
+      213: -5402777995004966445
+    second: Review_popup_57
+  - first:
+      213: -4302305466024819622
+    second: Review_popup_58
+  - first:
+      213: -2383703664078699863
+    second: Review_popup_59
+  - first:
+      213: 9136714278248065657
+    second: Review_popup_60
+  - first:
+      213: 8043268359961779778
+    second: Review_popup_61
+  - first:
+      213: -7656753630246661812
+    second: Review_popup_62
+  - first:
+      213: 8958765025343425441
+    second: Review_popup_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Review_popup_0
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 674
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c2b6499e3d7d3e0800000000000000
+      internalID: -2028920106936226737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 674
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628367674d31616d0800000000000000
+      internalID: -3020204696863885274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_2
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 672
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96443a88f31055dd0800000000000000
+      internalID: -2498089045920103319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_3
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 670
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e3023f155002980800000000000000
+      internalID: -8565840641729216882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_4
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 671
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe549222d8970540800000000000000
+      internalID: 4974112341744705272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_5
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 668
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903e194cb63d21000800000000000000
+      internalID: 5299009393648393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_6
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 673
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02a2a9baaa1f3f70800000000000000
+      internalID: 9169076686910824971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_7
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 668
+        width: 60
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9555e97631c9890800000000000000
+      internalID: -7450058347818690064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_8
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 668
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4a8c67bb4a38090800000000000000
+      internalID: -8033396185240132426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_9
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 674
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94412d39d59e3730800000000000000
+      internalID: 3980783880908129438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_10
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 672
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c268034c84a67510800000000000000
+      internalID: 1546604444375343811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_11
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 671
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e4ed5095825e1c0800000000000000
+      internalID: -4475126291907064190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_12
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 674
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e9836f59119eac0800000000000000
+      internalID: -3825507072695820673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_13
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 495
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ab4c3778342a650800000000000000
+      internalID: 6242626282530847301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 492
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77aad24df44329620800000000000000
+      internalID: 2779341437507840631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_15
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 491
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12de00b1b7b8f440800000000000000
+      internalID: 4969924162594198044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_16
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 496
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0fadceaa9728bb0800000000000000
+      internalID: -4935248466619469593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_17
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 492
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c7ddd10b6225760800000000000000
+      internalID: 7445055671854005332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_18
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 492
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f162cd55ce5265190800000000000000
+      internalID: -7974144393229883873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_19
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 492
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a748dff200ee5bec0800000000000000
+      internalID: -3551671046539213702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_20
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 490
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430b6aa9fdeca6c00800000000000000
+      internalID: 894754935754108980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_21
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 493
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de364953e86275c10800000000000000
+      internalID: 2042143348261938157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 489
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f03cb472d7e0e80800000000000000
+      internalID: -8210487462921564272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_23
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 482
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324ef5808b9c14f50800000000000000
+      internalID: 6863989099341014051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_24
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 492
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28409d9d65d949f40800000000000000
+      internalID: 5734381221897110658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_25
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 489
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ab2584dcc40f790800000000000000
+      internalID: -7498408935006488055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_26
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 493
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e2c933f4237ab30800000000000000
+      internalID: 4298459685098106475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_27
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 492
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2636082764734aee0800000000000000
+      internalID: -1250814020793900190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_28
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 489
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47cf78bf306557ee0800000000000000
+      internalID: -1264009545302672268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_29
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 492
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c07130a1ec89b030800000000000000
+      internalID: 3510992285195137223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_30
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 445
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72bf3b758e273b330800000000000000
+      internalID: 3725447658994924327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_31
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 432
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7895fdc5ecab8300800000000000000
+      internalID: 255487906879477884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_32
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 429
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202a844ee1bdce870800000000000000
+      internalID: 8713580304780534274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_33
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 429
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd311378c536cc40800000000000000
+      internalID: 5532168327311474120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_34
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 432
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0db3ea6288b2760800000000000000
+      internalID: 7434185309618426035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_35
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 432
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3b721feab613670800000000000000
+      internalID: 8516706769448711114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_36
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 431
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1413c28bfdd0f60800000000000000
+      internalID: 8002298095015641541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_37
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 428
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdda1930a10e8f930800000000000000
+      internalID: 4177335056719785435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_38
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 429
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95af9713a0dc17130800000000000000
+      internalID: 3562854223890217561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_39
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 433
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c071d6e09aab55f90800000000000000
+      internalID: -6965456013404334324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_40
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 433
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81e476cf3adf5bd0800000000000000
+      internalID: -2639150889168477812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_41
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 429
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd159c0bac9a8de0800000000000000
+      internalID: -1330078481470120505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_42
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 429
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301730fb8cf97fcf0800000000000000
+      internalID: -218530372357230333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_43
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 385
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c5fb179ccf154e0800000000000000
+      internalID: -1994535217821426591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_44
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 375
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f27d2886c98fcd70800000000000000
+      internalID: 9065616060701307638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_45
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 369
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1fca6fa118660a0800000000000000
+      internalID: -6888676627208932924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_46
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 372
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc178dd89120433d0800000000000000
+      internalID: -3227952724140592692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_47
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 373
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ffc2ed2f4897f50800000000000000
+      internalID: 6879676084429586205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_48
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 369
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2aa741373ee46100800000000000000
+      internalID: 100467012526385706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_49
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 372
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7e65abc80df9100800000000000000
+      internalID: 117041418175178744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_50
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 369
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bd21f718ae96bb0800000000000000
+      internalID: -4942161274158785706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_51
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 373
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a51eb524f670bc0800000000000000
+      internalID: -3816959828373186036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_52
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 373
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d24cf152198a1040800000000000000
+      internalID: 4619155079599768272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_53
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 369
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766d2c22b01835890800000000000000
+      internalID: -7470485472049703321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_54
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 369
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c80202adbd9d7c40800000000000000
+      internalID: 5511734956763777221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_55
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 325
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96338e0b78c1827e0800000000000000
+      internalID: -1790149482765601943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_56
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 312
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0762a2f2d238bb0800000000000000
+      internalID: -4935051086074056512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_57
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 313
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d98e67e90a7505b0800000000000000
+      internalID: -5402777995004966445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_58
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 309
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a548e5629f32b44c0800000000000000
+      internalID: -4302305466024819622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_59
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 309
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2cacc95226beed0800000000000000
+      internalID: -2383703664078699863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_60
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 313
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a27394a312cce70800000000000000
+      internalID: 9136714278248065657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_61
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 313
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e19a455fd6f9f60800000000000000
+      internalID: 8043268359961779778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_62
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 309
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c411778f32fbdb590800000000000000
+      internalID: -7656753630246661812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Review_popup_63
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 309
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abc9c1335de35c70800000000000000
+      internalID: 8958765025343425441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Review_popup_0: -2028920106936226737
+      Review_popup_1: -3020204696863885274
+      Review_popup_10: 1546604444375343811
+      Review_popup_11: -4475126291907064190
+      Review_popup_12: -3825507072695820673
+      Review_popup_13: 6242626282530847301
+      Review_popup_14: 2779341437507840631
+      Review_popup_15: 4969924162594198044
+      Review_popup_16: -4935248466619469593
+      Review_popup_17: 7445055671854005332
+      Review_popup_18: -7974144393229883873
+      Review_popup_19: -3551671046539213702
+      Review_popup_2: -2498089045920103319
+      Review_popup_20: 894754935754108980
+      Review_popup_21: 2042143348261938157
+      Review_popup_22: -8210487462921564272
+      Review_popup_23: 6863989099341014051
+      Review_popup_24: 5734381221897110658
+      Review_popup_25: -7498408935006488055
+      Review_popup_26: 4298459685098106475
+      Review_popup_27: -1250814020793900190
+      Review_popup_28: -1264009545302672268
+      Review_popup_29: 3510992285195137223
+      Review_popup_3: -8565840641729216882
+      Review_popup_30: 3725447658994924327
+      Review_popup_31: 255487906879477884
+      Review_popup_32: 8713580304780534274
+      Review_popup_33: 5532168327311474120
+      Review_popup_34: 7434185309618426035
+      Review_popup_35: 8516706769448711114
+      Review_popup_36: 8002298095015641541
+      Review_popup_37: 4177335056719785435
+      Review_popup_38: 3562854223890217561
+      Review_popup_39: -6965456013404334324
+      Review_popup_4: 4974112341744705272
+      Review_popup_40: -2639150889168477812
+      Review_popup_41: -1330078481470120505
+      Review_popup_42: -218530372357230333
+      Review_popup_43: -1994535217821426591
+      Review_popup_44: 9065616060701307638
+      Review_popup_45: -6888676627208932924
+      Review_popup_46: -3227952724140592692
+      Review_popup_47: 6879676084429586205
+      Review_popup_48: 100467012526385706
+      Review_popup_49: 117041418175178744
+      Review_popup_5: 5299009393648393
+      Review_popup_50: -4942161274158785706
+      Review_popup_51: -3816959828373186036
+      Review_popup_52: 4619155079599768272
+      Review_popup_53: -7470485472049703321
+      Review_popup_54: 5511734956763777221
+      Review_popup_55: -1790149482765601943
+      Review_popup_56: -4935051086074056512
+      Review_popup_57: -5402777995004966445
+      Review_popup_58: -4302305466024819622
+      Review_popup_59: -2383703664078699863
+      Review_popup_6: 9169076686910824971
+      Review_popup_60: 9136714278248065657
+      Review_popup_61: 8043268359961779778
+      Review_popup_62: -7656753630246661812
+      Review_popup_63: 8958765025343425441
+      Review_popup_7: -7450058347818690064
+      Review_popup_8: -8033396185240132426
+      Review_popup_9: 3980783880908129438
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

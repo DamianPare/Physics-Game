@@ -41,6 +41,11 @@ public class Explosion : MonoBehaviour
     
     void Update()
     {
+        if (explosionRadius < 2)
+        {
+            explosionRadius = 2;
+        }
+
         if (GameManager.instance.LevelCompleted || GameManager.instance.LevelFailed)
         {
             canMove = false;
@@ -84,8 +89,9 @@ public class Explosion : MonoBehaviour
     public void SetUpBlast(Vector3 place)
     {
         circleRadius = (place - startPos).magnitude;
+        explosionRadius = circleRadius;
        
-        spriteScale = Mathf.Abs(circleRadius);
+        spriteScale = Mathf.Abs(circleRadius / 2);
         explosion.transform.localScale = spriteScale * Vector3.one;
 
         explosionForceMulti = 1000 * (circleRadius);

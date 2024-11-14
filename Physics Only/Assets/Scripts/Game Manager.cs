@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.UI;
 using System;
 
 public class GameManager : MonoBehaviour
@@ -17,13 +18,15 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TMP_Text Ketchup;
     [SerializeField] private TMP_Text Relish;
     [SerializeField] private TMP_Text Dirt;
+    [SerializeField] private Image Bar;
 
     [SerializeField] private GameObject lostScreen;
 
     [SerializeField] private float duration;
 
     private float timeElapsed;
-    private int Edibility;
+    private float Edibility;
+    private int startEdibility;
 
     public bool LevelCompleted;
     public bool LevelFailed;
@@ -47,6 +50,8 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        Bar.fillAmount = Edibility / 100;
+
         if (Edibility <= 0)
         {
             LevelFailed = true;
@@ -79,8 +84,6 @@ public class GameManager : MonoBehaviour
 
     public void NextLevel()
     {
-        Debug.Log(Level1Name);
-        Debug.Log(SceneManager.GetActiveScene().name);
 
         if (SceneManager.GetActiveScene().name == Level1Name)
         {
@@ -107,7 +110,7 @@ public class GameManager : MonoBehaviour
 
     private void GameCompleted()
     {
-        //completedScreen.SetActive(true);
+        SceneManager.LoadScene(Level1Name);
     }
 
     public void LevelFinished(float ketch, float goop, float dirt)
@@ -121,13 +124,13 @@ public class GameManager : MonoBehaviour
 
     public void RemoveEdibility()
     {
-        //Edibility -= 10;
+        Edibility -= 10;
         Debug.Log(Edibility);
     }
 
     private void EndGame()
     {
-        //lostScreen.SetActive(true);
+        lostScreen.SetActive(true);
 
         if (Input.GetKeyDown(KeyCode.Space))
         {

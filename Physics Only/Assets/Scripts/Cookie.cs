@@ -72,6 +72,7 @@ public class Cookie : MonoBehaviour
     {
         if (collision.gameObject.layer == 7) // if touches gunk
         {
+            YuckContacted++;
             GameManager.instance.RemoveEdibility();
             source.PlayOneShot(splat);
             int i = Random.Range(1, 11);
@@ -84,12 +85,12 @@ public class Cookie : MonoBehaviour
             if (Yucky[i].activeSelf == false)
             {
                 Yucky[i].SetActive(true);
-                YuckContacted++;
             }
         }
 
         if (collision.gameObject.layer == 8) // if touches dirt
         {
+            DirtContacted++;
             GameManager.instance.RemoveEdibility();
             int i = Random.Range(1, 11);
 
@@ -101,12 +102,12 @@ public class Cookie : MonoBehaviour
             if (Dirty[i].activeSelf == false)
             {
                 Dirty[i].SetActive(true);
-                DirtContacted++;
             }
         }
 
         if (collision.gameObject.layer == 9) // if touches ketchup
         {
+            KetchupContacted++;
             source.PlayOneShot(splat);
             GameManager.instance.RemoveEdibility();
             int i = Random.Range(1, 11);
@@ -119,7 +120,6 @@ public class Cookie : MonoBehaviour
             if (Ketchup[i].activeSelf == false)
             {
                 Ketchup[i].SetActive(true);
-                KetchupContacted++;
             }
         }
 
