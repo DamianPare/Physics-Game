@@ -4,25 +4,21 @@ using UnityEngine;
 
 public class SingletonMusic : MonoBehaviour
 {
-    [SerializeField] private SingletonMusic m_Instance;
+    public SingletonMusic _instance { get; private set; }
 
     private void Awake()
     {
-        if (m_Instance != null && m_Instance != this)
+        if (_instance != null && _instance != this)
         {
             Destroy(this);
         }
-        else
-        {
-            m_Instance = this;
-        }
-
-        DontDestroyOnLoad(m_Instance);
+        _instance = this;
     }
 
     // Start is called before the first frame update
     void Start()
     {
+       // DontDestroyOnLoad(this);
     }
 
     // Update is called once per frame
