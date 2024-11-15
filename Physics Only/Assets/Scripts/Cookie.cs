@@ -75,11 +75,11 @@ public class Cookie : MonoBehaviour
             YuckContacted++;
             GameManager.instance.RemoveEdibility();
             source.PlayOneShot(splat);
-            int i = Random.Range(1, 11);
+            int i = Random.Range(1, 14);
 
             while (Yucky[i].activeSelf == true)
             {
-                i = Random.Range(1, 11);
+                i = Random.Range(1, 14);
             }
 
             if (Yucky[i].activeSelf == false)
@@ -92,11 +92,11 @@ public class Cookie : MonoBehaviour
         {
             DirtContacted++;
             GameManager.instance.RemoveEdibility();
-            int i = Random.Range(1, 11);
+            int i = Random.Range(1, 14);
 
             while (Dirty[i].activeSelf == true)
             {
-                i = Random.Range(1, 11);
+                i = Random.Range(1, 14);
             }
 
             if (Dirty[i].activeSelf == false)
@@ -110,11 +110,11 @@ public class Cookie : MonoBehaviour
             KetchupContacted++;
             source.PlayOneShot(splat);
             GameManager.instance.RemoveEdibility();
-            int i = Random.Range(1, 11);
+            int i = Random.Range(1, 14);
 
             while (Ketchup[i].activeSelf == true)
             {
-                i = Random.Range(1, 11);
+                i = Random.Range(1, 14);
             }
 
             if (Ketchup[i].activeSelf == false)
